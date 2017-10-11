@@ -1,0 +1,37 @@
+[
+	{
+		"car": "Mercedes",
+		"model": "E180",
+		"image": "https://i2.wp.com/www.automagg.com/wp-content/uploads/2013/08/Mercedes_E180-1.jpg"
+	},
+	{
+		"car": "BMW",
+		"model": "X5",
+		"image": "https://www.cstatic-images.com/car-pictures/xl/USC40BMS191A021001.png"
+	},
+	{
+		"car": "Audi",
+		"model": "A4",
+		"image": "https://media.caranddriver.com/images/08q3/267371/2009-audi-a4-32-quattro-photo-219374-s-450x274.jpg"
+	},
+	{
+		"car": "Toyota",
+		"model": "Land Cruiser",
+		"image": "https://images.toyota-europe.com/gb/landcruiser150/width/1200/exterior-right-front.jpg"
+	},
+	{
+		"car": "Ford",
+		"model": "Focus",
+		"image": "https://d1ek71enupal89.cloudfront.net/images/blocks_png/FORD/FOCUS/5DR/16ForFocStl5drWhiFL1_800.jpg"
+	},
+	{
+		"car": "Suzuki",
+		"model": "Swift =)",
+		"image": "https://auto.ndtvimg.com/car-images/colors/maruti-suzuki/swift/maruti-suzuki-swift-mysterious-violet.png"
+	},
+	{
+		"car": "Mitsubishi",
+		"model": "Lancer",
+		"image": "https://mcarsstatic.cachefly.net/img/vehicles/lan/2017/trims/SEL-2.4-AWC/360/alloy-silver/03-d.png"
+	}
+]

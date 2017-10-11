@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		290C23E31F614BBC004E8070 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290C23E21F614BBC004E8070 /* AppDelegate.swift */; };
+		290C23E81F614BBC004E8070 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 290C23E61F614BBC004E8070 /* Main.storyboard */; };
+		290C23EA1F614BBC004E8070 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 290C23E91F614BBC004E8070 /* Assets.xcassets */; };
+		290C23ED1F614BBC004E8070 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 290C23EB1F614BBC004E8070 /* LaunchScreen.storyboard */; };
+		2926C11F1F61551C001586DA /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2926C11E1F61551C001586DA /* APIManager.swift */; };
+		2926C1211F615651001586DA /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2926C1201F615651001586DA /* Car.swift */; };
+		29FCDD1F1F8D564500E0FC44 /* cars.json in Resources */ = {isa = PBXBuildFile; fileRef = 29FCDD1E1F8D561100E0FC44 /* cars.json */; };
+		29FCDD251F8D58A600E0FC44 /* CarListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FCDD241F8D58A600E0FC44 /* CarListVC.swift */; };
+		D4CE946198FDE88E3C4674AD /* Pods_AlaMapRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D6613CE4EC79DF7CD026BCC /* Pods_AlaMapRealm.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D6613CE4EC79DF7CD026BCC /* Pods_AlaMapRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlaMapRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		239E013E6D98B0AAF4A830F0 /* Pods-AlaMapRealm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlaMapRealm.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlaMapRealm/Pods-AlaMapRealm.release.xcconfig"; sourceTree = "<group>"; };
+		290C23DF1F614BBC004E8070 /* AlaMapRealm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlaMapRealm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		290C23E21F614BBC004E8070 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		290C23E71F614BBC004E8070 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		290C23E91F614BBC004E8070 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		290C23EC1F614BBC004E8070 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		290C23EE1F614BBC004E8070 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2926C11E1F61551C001586DA /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		2926C1201F615651001586DA /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		29FCDD1E1F8D561100E0FC44 /* cars.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = cars.json; sourceTree = "<group>"; };
+		29FCDD241F8D58A600E0FC44 /* CarListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListVC.swift; sourceTree = "<group>"; };
+		5B877D6449643AB93715CB03 /* Pods-AlaMapRealm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlaMapRealm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlaMapRealm/Pods-AlaMapRealm.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		290C23DC1F614BBC004E8070 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4CE946198FDE88E3C4674AD /* Pods_AlaMapRealm.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		026FE5FC14C2C70FD5B8A2F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D6613CE4EC79DF7CD026BCC /* Pods_AlaMapRealm.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		290C23D61F614BBC004E8070 = {
+			isa = PBXGroup;
+			children = (
+				290C23E11F614BBC004E8070 /* AlaMapRealm */,
+				290C23E01F614BBC004E8070 /* Products */,
+				5F242090D4FB50B07CA827D5 /* Pods */,
+				026FE5FC14C2C70FD5B8A2F6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		290C23E01F614BBC004E8070 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				290C23DF1F614BBC004E8070 /* AlaMapRealm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		290C23E11F614BBC004E8070 /* AlaMapRealm */ = {
+			isa = PBXGroup;
+			children = (
+				29FCDD231F8D588200E0FC44 /* API JSON */,
+				29FCDD221F8D586700E0FC44 /* ViewController */,
+				29FCDD211F8D584100E0FC44 /* Model */,
+				29FCDD201F8D581300E0FC44 /* Managers */,
+				290C23E21F614BBC004E8070 /* AppDelegate.swift */,
+				290C23E61F614BBC004E8070 /* Main.storyboard */,
+				290C23E91F614BBC004E8070 /* Assets.xcassets */,
+				290C23EB1F614BBC004E8070 /* LaunchScreen.storyboard */,
+				290C23EE1F614BBC004E8070 /* Info.plist */,
+			);
+			path = AlaMapRealm;
+			sourceTree = "<group>";
+		};
+		29FCDD201F8D581300E0FC44 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				2926C11E1F61551C001586DA /* APIManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		29FCDD211F8D584100E0FC44 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2926C1201F615651001586DA /* Car.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		29FCDD221F8D586700E0FC44 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				29FCDD241F8D58A600E0FC44 /* CarListVC.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		29FCDD231F8D588200E0FC44 /* API JSON */ = {
+			isa = PBXGroup;
+			children = (
+				29FCDD1E1F8D561100E0FC44 /* cars.json */,
+			);
+			path = "API JSON";
+			sourceTree = "<group>";
+		};
+		5F242090D4FB50B07CA827D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B877D6449643AB93715CB03 /* Pods-AlaMapRealm.debug.xcconfig */,
+				239E013E6D98B0AAF4A830F0 /* Pods-AlaMapRealm.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		290C23DE1F614BBC004E8070 /* AlaMapRealm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 290C23F11F614BBC004E8070 /* Build configuration list for PBXNativeTarget "AlaMapRealm" */;
+			buildPhases = (
+				363EC2C446E84A236CEF5382 /* [CP] Check Pods Manifest.lock */,
+				290C23DB1F614BBC004E8070 /* Sources */,
+				290C23DC1F614BBC004E8070 /* Frameworks */,
+				290C23DD1F614BBC004E8070 /* Resources */,
+				83927B5EA9330968FC45F3FC /* [CP] Embed Pods Frameworks */,
+				2E3C321184B6ABF5E823116D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlaMapRealm;
+			productName = AlaMapRealm;
+			productReference = 290C23DF1F614BBC004E8070 /* AlaMapRealm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		290C23D71F614BBC004E8070 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Dima Shvets";
+				TargetAttributes = {
+					290C23DE1F614BBC004E8070 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = WP76D762Y9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 290C23DA1F614BBC004E8070 /* Build configuration list for PBXProject "AlaMapRealm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 290C23D61F614BBC004E8070;
+			productRefGroup = 290C23E01F614BBC004E8070 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				290C23DE1F614BBC004E8070 /* AlaMapRealm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		290C23DD1F614BBC004E8070 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29FCDD1F1F8D564500E0FC44 /* cars.json in Resources */,
+				290C23ED1F614BBC004E8070 /* LaunchScreen.storyboard in Resources */,
+				290C23EA1F614BBC004E8070 /* Assets.xcassets in Resources */,
+				290C23E81F614BBC004E8070 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E3C321184B6ABF5E823116D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlaMapRealm/Pods-AlaMapRealm-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		363EC2C446E84A236CEF5382 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		83927B5EA9330968FC45F3FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlaMapRealm/Pods-AlaMapRealm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		290C23DB1F614BBC004E8070 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2926C11F1F61551C001586DA /* APIManager.swift in Sources */,
+				2926C1211F615651001586DA /* Car.swift in Sources */,
+				290C23E31F614BBC004E8070 /* AppDelegate.swift in Sources */,
+				29FCDD251F8D58A600E0FC44 /* CarListVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		290C23E61F614BBC004E8070 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				290C23E71F614BBC004E8070 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		290C23EB1F614BBC004E8070 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				290C23EC1F614BBC004E8070 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		290C23EF1F614BBC004E8070 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		290C23F01F614BBC004E8070 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		290C23F21F614BBC004E8070 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B877D6449643AB93715CB03 /* Pods-AlaMapRealm.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WP76D762Y9;
+				INFOPLIST_FILE = AlaMapRealm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DS.AlaMapRealm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		290C23F31F614BBC004E8070 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 239E013E6D98B0AAF4A830F0 /* Pods-AlaMapRealm.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WP76D762Y9;
+				INFOPLIST_FILE = AlaMapRealm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DS.AlaMapRealm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		290C23DA1F614BBC004E8070 /* Build configuration list for PBXProject "AlaMapRealm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				290C23EF1F614BBC004E8070 /* Debug */,
+				290C23F01F614BBC004E8070 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		290C23F11F614BBC004E8070 /* Build configuration list for PBXNativeTarget "AlaMapRealm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				290C23F21F614BBC004E8070 /* Debug */,
+				290C23F31F614BBC004E8070 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 290C23D71F614BBC004E8070 /* Project object */;
+}
