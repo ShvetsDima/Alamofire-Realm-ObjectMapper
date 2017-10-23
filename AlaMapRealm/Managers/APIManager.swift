@@ -14,7 +14,7 @@ import RealmSwift
 
 class APIManager {
     static func getCars <T: Object> (type: T.Type, success:@escaping () -> Void,
-                                     fail:@escaping (_ error:NSError)->Void)->Void where T:Mappable, T:Meta {
+                                     fail:@escaping (_ error:NSError)->Void)->Void where T:Mappable, T:Generics {
         Alamofire.request(type.url(), method: .get).responseArray { (response: DataResponse<[T]>) in
             switch response.result {
             case .success(let items):
