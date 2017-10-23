@@ -10,11 +10,11 @@ import Foundation
 import RealmSwift
 import ObjectMapper
 
-protocol Meta {
+protocol Generics {
     static func url() -> String
 }
 
-class Car: Object, Mappable, Meta {
+class Car: Object, Mappable, Generics {
     dynamic var car = ""
     dynamic var model = ""
     dynamic var image = ""
